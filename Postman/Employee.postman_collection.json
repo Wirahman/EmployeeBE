@@ -1,0 +1,322 @@
+{
+	"info": {
+		"_postman_id": "10a10c1b-94a7-4e7f-b68a-4109808fcdaa",
+		"name": "Employee",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15153011"
+	},
+	"item": [
+		{
+			"name": "Create Employee",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "4pb4tech",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "HeaderUsername",
+						"value": "Wirahman",
+						"type": "text"
+					},
+					{
+						"key": "HeaderID",
+						"value": "1",
+						"type": "text"
+					},
+					{
+						"key": "UserToken",
+						"value": "KDNQcQHaqxxhx0LTd2BJIji6sGFQHT7CQVUucD03rjgkRDqXf9",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "Wirahman",
+							"type": "text"
+						},
+						{
+							"key": "firstName",
+							"value": "Wirahman",
+							"type": "text"
+						},
+						{
+							"key": "lastName",
+							"value": "Usman",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "Wira_uk@yahoo.com",
+							"type": "text"
+						},
+						{
+							"key": "birthDate",
+							"value": "1989-09-02",
+							"type": "text"
+						},
+						{
+							"key": "basicSalary",
+							"value": "5000000",
+							"type": "text"
+						},
+						{
+							"key": "status",
+							"value": "Aktif",
+							"type": "text"
+						},
+						{
+							"key": "group",
+							"value": "group",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "description",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/employee/createEmployee",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"employee",
+						"createEmployee"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Employee",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "4pb4tech",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "HeaderUsername",
+						"value": "Wirahman",
+						"type": "text"
+					},
+					{
+						"key": "HeaderID",
+						"value": "1",
+						"type": "text"
+					},
+					{
+						"key": "UserToken",
+						"value": "KDNQcQHaqxxhx0LTd2BJIji6sGFQHT7CQVUucD03rjgkRDqXf9",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "Wimbisono",
+							"type": "text"
+						},
+						{
+							"key": "firstName",
+							"value": "Wimbisono",
+							"type": "text"
+						},
+						{
+							"key": "lastName",
+							"value": "Usman",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "Wimbisono@yahoo.com",
+							"type": "text"
+						},
+						{
+							"key": "birthDate",
+							"value": "1993-07-31",
+							"type": "text"
+						},
+						{
+							"key": "basicSalary",
+							"value": "5000000",
+							"type": "text"
+						},
+						{
+							"key": "status",
+							"value": "Aktif",
+							"type": "text"
+						},
+						{
+							"key": "group",
+							"value": "group",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "description",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/employee/getAllEmployee",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"employee",
+						"getAllEmployee"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Employee By ID",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "4pb4tech",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "HeaderUsername",
+						"value": "Wirahman",
+						"type": "text"
+					},
+					{
+						"key": "HeaderID",
+						"value": "1",
+						"type": "text"
+					},
+					{
+						"key": "UserToken",
+						"value": "KDNQcQHaqxxhx0LTd2BJIji6sGFQHT7CQVUucD03rjgkRDqXf9",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "Wimbisono",
+							"type": "text"
+						},
+						{
+							"key": "firstName",
+							"value": "Wimbisono",
+							"type": "text"
+						},
+						{
+							"key": "lastName",
+							"value": "Usman",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "Wimbisono@yahoo.com",
+							"type": "text"
+						},
+						{
+							"key": "birthDate",
+							"value": "1993-07-31",
+							"type": "text"
+						},
+						{
+							"key": "basicSalary",
+							"value": "5000000",
+							"type": "text"
+						},
+						{
+							"key": "status",
+							"value": "Aktif",
+							"type": "text"
+						},
+						{
+							"key": "group",
+							"value": "group",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "description",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/employee/getEmployeeById?id=1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"employee",
+						"getEmployeeById"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
