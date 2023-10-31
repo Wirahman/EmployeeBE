@@ -1,0 +1,7 @@
+id(int 11)
+code(varchar 100)
+name(varchar 100)
+status(Enum(active, inactive))
+description(Text)
+created_at(timestamp)
+updated_at(timestamp)

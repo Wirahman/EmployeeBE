@@ -1,0 +1,13 @@
+Backend
+Hostname = ftp.clenicapp.com
+Port = 21
+Username = backadm@clenic.id
+Password = Clenic1234567890
+
+URL untuk test website = https://clenicback.clenic.id/public/
+URL untuk test postman = https://clenicback.clenic.id/
+
+Phpmyadmin
+Url = https://srv168.niagahoster.com:2083/cpsess5018588747/3rdparty/phpMyAdmin/index.php
+Username : u1824944
+Password : Clenic123456

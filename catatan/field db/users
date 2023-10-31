@@ -1,0 +1,14 @@
+id(int 11)
+code(varchar 100)
+name(varchar 100)
+username(varchar 100)
+password(varchar 100)
+department_id(int 11)
+role_id(int 11)
+status(enum(active, inactive))
+create_at(timestamp)
+updated_at(timestamp)
+
+Request Penambahan Field
+token(varchar 100)
+token_expired(timestamp)

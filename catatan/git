@@ -1,0 +1,15 @@
+URL = https://github.com/apbatech/Clenicapp_Administrator_Back-End/tree/development
+
+
+
+install = git init 
+remote = git remote add origin (url)
+git add . atau git add (lokasi file perubahan)
+commit = git commit -m "(kalimat)"
+pindah branch = git branch -M (nama branch)
+push = git push --set-upstream origin (nama branch)
+
+
+Cara ngepull
+1. git fetch
+2. git pull

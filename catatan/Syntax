@@ -1,0 +1,13 @@
+Membuat Model = php artisan make:model (Lokasi Folder) -m
+Membuat Controller = php artisan make:controller Api/Promo/PromoController
+Membuat Email = php artisan make:mail MyTestMail
+
+
+Running aplikasi = php artisan serve
+
+
+Cara Upload ke server
+1. Pindahkan semua file dan folder ke dalam sub domain
+2. Buat index.php dengan syntax "<?php header('Location: public/');"
+3. Buat .htaccess
+4. Copy semua file ke serve

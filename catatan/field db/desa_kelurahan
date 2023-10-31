@@ -1,0 +1,3 @@
+id(int 11)
+name(varchar 100)
+kecamatan_id(int 11)

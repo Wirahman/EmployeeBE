@@ -1,0 +1,8 @@
+id(int 11)
+table_name(varchar 100)
+label(varchar 100)
+prefix(varchar 100)
+digit(int 11)
+counter(int 11)
+created_at(timestamp)
+updated_at(timestamp)

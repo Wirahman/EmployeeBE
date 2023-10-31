@@ -1,0 +1,4 @@
+id(int 11)
+package_header_id(int 11)
+user_clenic_id(int 11)
+qty(Decimal 10, 2)

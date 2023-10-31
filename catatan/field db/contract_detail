@@ -1,0 +1,8 @@
+id(int 11)
+contract_header_id(int 11)
+user_clenic_id(int 11)
+qty(Decimal 10, 2)
+price(Decimal 10, 2)
+discount_type(int 11)
+discount_value(Decimal 10, 2)
+subtotal(Decimal 10, 2)

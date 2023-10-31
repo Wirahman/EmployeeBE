@@ -1,0 +1,12 @@
+id(int 11)
+code(varchar 100)
+name(varchar 100)
+status(Enum(active, inactive))
+description(Text)
+created_at(timestamp)
+updated_at(timestamp)
+
+Request Penambahan field
+1. modules(Untuk validasi di frontend, hanya bisa diisi oleh programmer)
+2. menu(Untuk menampilkan list menu di frontend, hanya bisa diisi oleh programmer)
+3. router_link(Untuk memanggil component di frontend, hanya bisa diisi oleh programmer)

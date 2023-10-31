@@ -1,0 +1,23 @@
+1. users (Sudah Diperiksa)
+2. departments (Sudah Diperiksa)
+3. log_activities (Sudah Diperiksa)
+4. roles (Sudah Diperiksa)
+5. permissions (Sudah Diperiksa)
+6. role_permissions (Sudah Diperiksa)
+7. provinsi (Sudah Diperiksa)
+8. kabupaten_kota (Sudah Diperiksa)
+9. kecamatan (Sudah Diperiksa)
+10. desa_kelurahan (Sudah Diperiksa)
+11. customers (Sudah Diperiksa)
+12. clinic (Sudah Diperiksa)
+13. user_clenic (Sudah Diperiksa)
+14. package_header (Sudah Diperiksa)
+15. package_detail (Sudah Diperiksa)
+16. terms_of_payment (Sudah Diperiksa)
+17. contract_header (Sudah Diperiksa)
+18. contract_detail
+
+*sudah dibuat daftarnya tinggal diperiksa di db dan diubah
+tambah 2 table = 
+1. login_log
+2. code_settings
